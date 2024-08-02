@@ -1,0 +1,50 @@
+.grid-container {
+    display: grid;
+/*  میتونی بین سلول ها، گپ ستونی ایجاد کنی*/
+    /* grid-column-gap: 10px; */
+    /* grid-template-columns: auto auto auto auto auto; */
+/*  میتونی بین سلول ها، گپ  ردیفی ایجاد کنی*/
+    /* grid-row-gap: 10px; */
+/*  کد زیر بهتر جواب میده، بعضی مرورگرها بالایی رو  نشون نمیده*/
+    /* row-gap: 10px;
+    column-gap: 25px; */
+/*  میتونی بین سلول ها، همزمان گپ ستونی و ردیفی ایجاد کنی*/
+    /* grid-gap: 10px 30px; */
+    /* gap: 10px; */
+
+
+    grid-template-columns: repeat(4, auto);
+    background-color: aqua;
+    padding: 20px;
+}
+
+
+.grid-item {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+}
+
+/*  به آیتم اولی بگم، بیا از خط ستونی یک شروع کن و تا خط ستونی پنج تموم بشو*/
+/* .first-item {
+    grid-column-start: 1;
+    grid-column-end: 5;
+} */
+
+/* .first-item {
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
+
+
+
+
+
+
+
+
+
+
+

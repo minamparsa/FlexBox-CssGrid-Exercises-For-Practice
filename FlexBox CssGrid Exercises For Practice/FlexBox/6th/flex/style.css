@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  پیشفرض order: 0;*/
+/*  محدوده اولویت از منهای بی نهایت تا مثبت بی نهایت هست  */
+
+.car {
+    background-color: brown;
+    order: 1;
+}
+
+.BMW {
+    background-color: blue;
+    order: 2;
+}
+
+.X6 {
+    background-color: chartreuse;
+    order: 1;
+}
+
+.BENZ {
+    background-color: darkcyan;
+}
+
+.MVM {
+    background-color: darkred;
+    order: 3;
+}
+
+
+
+
+
+
+.set {
+    font-size: 30px;
+    padding: 20px;
+    width: 10%;
+}
+
+
+
+.container {
+    display: flex;
+    height: 500px;
+    background: aqua;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;                    
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

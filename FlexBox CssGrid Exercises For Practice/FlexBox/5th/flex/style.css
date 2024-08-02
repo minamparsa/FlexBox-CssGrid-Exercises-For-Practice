@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.car {
+    background-color: brown;
+}
+
+.BMW {
+    background-color: blue;
+}
+
+.X6 {
+    background-color: chartreuse;
+}
+
+.BENZ {
+    background-color: darkcyan;
+}
+
+.MVM {
+    background-color: darkred;
+}
+
+
+
+
+.container {
+    display: flex;
+    height: 300px;
+    background: aqua;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.set {
+    font-size: 30px;
+    padding: 20px;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

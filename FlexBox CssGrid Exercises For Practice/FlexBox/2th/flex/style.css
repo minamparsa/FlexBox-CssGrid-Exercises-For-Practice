@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    background-color: aqua;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse ; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-flow: wrap column;
+
+    grid-column-start: 1;
+    
+}
+
+
+
+
+
+.flex-container>div {
+    background-color: chartreuse;
+    margin: 20px;
+    padding: 20px;
+    font-size: 15px;
+    
+}
+
+
+
+

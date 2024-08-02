@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+/* grid-template-columns: auto auto auto auto; */
+/* or you can give size to each one of them (size of each column); but we usually use --> auto  */
+    /* grid-template-columns: 20px 30px 200px 500px; */
+
+/* you can set them in 2 column */
+* grid-template-columns: auto auto; */
+
+/* you can set them in 5 column */
+* grid-template-columns: auto auto auto auto auto; */
+
+/* همون کد رو خلاصه هم میتونی بنویسی */
+    grid-template-columns: repeat(4, auto);
+    background-color: aqua;
+    padding: 20px;
+}
+
+
+.grid-item {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

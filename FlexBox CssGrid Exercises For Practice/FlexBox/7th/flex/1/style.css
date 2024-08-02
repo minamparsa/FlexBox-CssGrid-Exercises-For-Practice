@@ -1,0 +1,51 @@
+/* تغییر سایز آیتم ها */
+/* هر آیتم یک گرو پیشفرض داره */
+
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+
+
+
+.flex-item {
+    background-color: aqua;
+    border: 3px solid red;
+    line-height: 100px;
+    color: black;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    width: 20%;    
+	/* اگه بزاری گرو مساوی یک ، کل عرض صفحه رو میگیرن */
+    flex-grow: 1;  
+     
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

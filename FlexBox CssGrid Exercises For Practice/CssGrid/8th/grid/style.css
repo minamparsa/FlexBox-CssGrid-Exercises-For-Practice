@@ -1,0 +1,38 @@
+.first-item {
+    grid-area: myItem;
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    background-color: aqua;
+    width: 100%;
+    grid-template-areas: 'myItem myItem .' 'myItem myItem .' 'myItem myItem .';
+    /* grid-template-areas: 'myItem myItem .' ; */
+    /* grid-template-areas: 'myItem myItem ..' ; */
+    /* grid-template-areas: 'myItem myItem myItem'; */
+    /* grid-template-areas: 'myItem myItem myItem.'; */
+
+}
+
+/* grid-template-areas: 'sotoon ha ro dar nazar migire-radif-1' 'radif-2' 'radif-3'    */
+
+
+
+.grid-item {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
